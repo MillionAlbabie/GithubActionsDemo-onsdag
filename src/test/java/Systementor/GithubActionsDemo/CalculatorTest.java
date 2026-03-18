@@ -31,7 +31,7 @@ class CalculatorTest {
         logger.info("2- Logger: Result from calculator: " + result);
 
         try {
-            assertEquals(3, result);
+            assertEquals(4, result);
             System.out.println("3- Logger: Success! Expected 3 and got: " + result);
         }
         catch (AssertionError e) {
