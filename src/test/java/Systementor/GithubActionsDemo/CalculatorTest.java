@@ -21,7 +21,7 @@ class CalculatorTest {
     @Test
     void addShouldReturn3() {
         int result = calculator.add(a,b);
-        assertEquals(3,result);
+        assertEquals(4,result);
     }
     @Test
     void addShouldReturn3_withLogger(){
